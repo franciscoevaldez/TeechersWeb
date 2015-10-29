@@ -1,0 +1,30 @@
+/* Main style sheet */
+
+body{
+	color: black;
+}
+
+div.header-bg{
+	background-image: url("../img/photo-background.jpg");
+	background-position: center center;
+	background-color: blue;
+}
+
+header{
+	color: white;
+	text-align: center;
+}
+
+content#features{
+	color: red;
+}
+
+div.footer-bg{
+	background-color: blue;
+}
+
+footer{
+	color:white;
+	text-align: center;
+}
+
