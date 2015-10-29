@@ -1,18 +1,36 @@
 /* Main style sheet */
 
-body{
+body, html{
 	color: black;
+	height: 100%;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+div.photo-bg{
+	background-image: url("../img/photo-background.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+div#iPhoneContainer{
+	height: 300px;
 }
 
 div.header-bg{
-	background-image: url("../img/photo-background.jpg");
-	background-position: center center;
-	background-color: blue;
+	background-color: #3CA0CB;
 }
 
 header{
 	color: white;
 	text-align: center;
+
+	margin-top: -30px;
+}
+
+img#app-icon{
+	width: 60px;
+	height: 60px;
 }
 
 content#features{
@@ -20,11 +38,67 @@ content#features{
 }
 
 div.footer-bg{
-	background-color: blue;
+	background-color: #3CA0CB;
 }
 
 footer{
 	color:white;
 	text-align: center;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	div#iPhoneContainer{
+		height: 400px;
+	}
+
+	header{
+		color: white;
+		text-align: center;
+
+		margin-top: -37px;
+	}
+
+	img#app-icon{
+		width: 75px;
+		height: 75px;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	div#iPhoneContainer{
+		height: 450px;
+	}
+	
+	header{
+		color: white;
+		text-align: center;
+
+		margin-top: -45px;
+	}
+
+	img#app-icon{
+		width: 90px;
+		height: 90px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	div#iPhoneContainer{
+		height: 500px;
+	}
+
 }
 
