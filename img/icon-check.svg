@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-224.000000, -651.000000)">
+            <g id="icon-check" sketch:type="MSLayerGroup" transform="translate(224.000000, 651.000000)">
+                <rect id="Rectangle-167" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="60" height="60"></rect>
+                <path d="M30,55 C43.8071187,55 55,43.8071187 55,30 C55,16.1928813 43.8071187,5 30,5 C16.1928813,5 5,16.1928813 5,30 C5,43.8071187 16.1928813,55 30,55 Z M40.1523714,20.5739421 L25.2368378,35.4894757 L18.7644645,29.0171024 C17.6920866,27.9447245 15.9517205,27.9464224 14.8772481,29.0208948 C13.8027757,30.0953673 13.8010778,31.8357333 14.8734557,32.9081112 L23.287541,41.3221965 C24.3599189,42.3945744 26.1002849,42.3928765 27.1747573,41.3184041 L44.0357954,24.457366 C45.1102678,23.3828936 45.1119657,21.6425276 44.0395878,20.5701496 C42.9672099,19.4977717 41.2268438,19.4994696 40.1523714,20.5739421 Z" fill="#3CA0CB" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
