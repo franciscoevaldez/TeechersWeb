@@ -77,6 +77,10 @@ img#app-icon{
 	height: 60px;
 }
 
+header p{
+	margin-bottom: 2em;
+}
+
 header a,
 header a:visited{
 	color: white;
@@ -86,6 +90,7 @@ header a:visited{
 
 	padding: 0.75em 1.5em;
 	margin-bottom: 1em;
+	margin-top: 1.75em;
 }
 
 header a:hover{
@@ -93,6 +98,8 @@ header a:hover{
 	background-color: white;
 	text-decoration: none;
 }
+
+
 
 content#features{
 	color: #3CA0CB;
@@ -135,10 +142,84 @@ footer h2{
 }
 
 
+#mc_embed_signup{
+	clear:left; 
+	font:14px 'Montserrat', sans-serif;
+}
+
+#mc_embed_signup input{
+	display: inline-block;
+}
+
+#mc_embed_signup input::-webkit-input-placeholder{
+	color:rgba(255, 255, 255, 0.5);
+}
+#mc_embed_signup input:-moz-placeholder{
+	color:rgba(255, 255, 255, 0.5);
+}
+#mc_embed_signup input::-ms-input-placeholder{
+	color:rgba(255, 255, 255, 0.5);
+}
+
+#mc_embed_signup input.subscribeemail{
+	display: inline-block;
+	clear: none;
+
+	color: #FFFFFF;
+	background-color: #3CA0CB;
+
+	border: 1px solid white;
+	border-radius: 3px;
+
+	padding: 0.75em 1em;
+	margin-bottom: 1em;
+	width: 62%
+}
+
+
+#mc_embed_signup input.subscribebutton{
+	display: inline-block;
+	clear: none;
+
+	color: #FFFFFF;
+	background-color: #3CA0CB;
+
+	border: 1px solid white;
+	border-radius: 3px;
+
+	padding: 0.75em 0em;
+	margin-bottom: 1em;
+	width: 35%;
+}
+
+#mc_embed_signup input.subscribebutton:hover{
+	color: #3CA0CB;
+	background-color: #FFFFFF;
+}
+
+
+footer .links{
+	padding: 1em 0em;
+	margin-top: 1.25em;
+	border-top: 1px rgba(255, 255, 255, 0.5) solid;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+footer .links a,
+footer .links a:visited{
+	color: rgba(255, 255, 255, 0.5);
+	margin: 0 1em;
+}
+
+footer .links a:hover{
+	color: rgba(255, 255, 255, 1);
+}
+
+
 h1{font-size: 1em; margin: 1em 0 0.8em 0;}
-h2{font-size: 1.5em; margin: 1.25em 0 1.75em 0;}
+h2{font-size: 1.5em; margin-top: 1.25em;}
 h3{font-size: 1.3em;}
-p{font-size: 0.9em; line-height: 1.8em; margin-top: 1em;}
+p{font-size: 0.9em; line-height: 1.8em; margin: 1em 0em;}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
@@ -196,10 +277,12 @@ p{font-size: 0.9em; line-height: 1.8em; margin-top: 1em;}
 		margin-bottom: 0.75em;
 	}
 
-
+	footer .links{
+		margin-top: 1.75em;
+	}
 
 	h1{font-size: 1.1em;}
-	h2{font-size: 2em; margin: 0.85em 0 1.4em 0;}
+	h2{font-size: 2em; margin-top: 0.85em;}
 	h3{font-size: 1.45em;}
 	p{font-size: 1em;}
 
@@ -259,9 +342,9 @@ p{font-size: 0.9em; line-height: 1.8em; margin-top: 1em;}
 	}
 	
 	h1{font-size: 1.2em;}
-	h2{font-size: 2.25em; margin: 0.7em 0 1.2em 0;}
+	h2{font-size: 2.25em; margin-top: 0.7em;}
 	h3{font-size: 1.6em; margin-top: 1em;}
-	p{font-size: 1.1em; line-height: 1.65em; margin-top: 1em;}
+	p{font-size: 1.1em; line-height: 1.65em;}
 
 }
 
@@ -316,7 +399,7 @@ p{font-size: 0.9em; line-height: 1.8em; margin-top: 1em;}
 	}
 	
 	h1{font-size: 1.5em;}
-	h2{font-size: 2.8em; margin: 0.5em 0 1em 0;}
+	h2{font-size: 2.8em; margin-top: 0.5em;}
 	h3{font-size: 1.8em;}
 	p{font-size: 1.3em;}
 
